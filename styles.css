@@ -1,0 +1,165 @@
+.body {
+    overflow-x: hidden;
+    font-family: 'Alegreya Sans SC', sans-serif;;
+}
+
+.container-fluid {
+    padding: 7% 10%;
+}
+
+/* NAVBAR SECTION */
+
+.navbar {
+    padding-bottom: 4.5rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 200;
+}
+
+.navbar-brand {
+    color: rgb(56, 56, 56);
+    font-size: 2.8rem;
+}
+
+.navbar-brand:hover {
+    color:rgb(56, 56, 56);
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    color: rgb(56, 56, 56);
+}
+
+.options {
+    margin-right: 100px;
+}
+
+.menu {
+    color:rgb(56, 56, 56);
+}
+
+/* TITLE SECTION */
+
+#title .container-fluid {
+    padding: 3% 10% 7%;
+    background-image: url(./mtn1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+}
+
+.big-heading {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 100; 
+    font-size: 8rem;
+    padding: 3% 3% 0 3%;
+}
+
+.small-heading {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    padding: 0 3% 3% 3%;
+}
+
+.header {
+    margin-top: 15%;
+}
+
+/* AMENITIES SECTION */
+
+#Amenities {
+    text-align: center;
+}
+
+.section-header {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.amenities-hr {
+    width: 15%;
+    margin: auto;
+    border-width: 5px;
+    border-color: rgb(12, 147, 145);
+}
+
+.amenities-img {
+    width: 100%;
+}
+
+.text {
+    text-align: left;
+    padding-left: 10%;
+    border-left: 2px solid rgb(12, 147, 145);
+}
+
+.text-middle {
+    text-align: left;
+    padding-right: 10%;
+    border-right: 2px solid #333;
+}
+
+.amenity {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.amenities-subheading {
+    margin-bottom: 15%;
+    font-weight: 300;
+    color: rgb(40, 40, 40);
+}
+
+.amenities-text {
+    color: rgb(121, 121, 121);
+    font-weight: 300;
+    line-height: 2;
+}
+
+/* STAY WITH US SECTION */
+
+#stay {
+    background-image: url(./van2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main {
+    position: relative;
+}
+
+.circle {
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(222deg) brightness(500%) contrast(101%) opacity(90%);
+    width: 100%;
+}
+
+.stay-text {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 300;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.social {
+    padding: 0 10%;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 45%;
+    left: 8%;
+}
+
+.myBtn {
+    width: 40%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    position: relative;
+    bottom: 30%;
+    left: 28%;
+}
